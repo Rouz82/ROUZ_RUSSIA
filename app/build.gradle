@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.rouz.russia'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'com.rouz.russia'
+        minSdk 23
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+}
